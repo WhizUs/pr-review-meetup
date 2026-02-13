@@ -1,0 +1,11 @@
+apiVersion: v2
+name: argocd-deployment
+description: A wrapper Helm chart that deploys ArgoCD via its upstream chart
+type: application
+version: 0.1.0
+appVersion: "v2.14.11"
+
+dependencies:
+  - name: argo-cd
+    version: 9.3.7
+    repository: https://argoproj.github.io/argo-helm

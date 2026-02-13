@@ -1,0 +1,19 @@
+# Override values for the argo-cd sub-chart
+argo-cd:
+  ## Globally shared configuration
+  global:
+    domain: argocd.example.com
+
+  ## Server
+  server:
+    replicas: 2
+    ingress:
+      enabled: true
+
+  ## Repo Server
+  repoServer:
+    replicas: 2
+
+  ## Application Controller
+  controller:
+    replicas: 1
