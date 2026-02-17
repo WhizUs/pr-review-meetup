@@ -1,6 +1,6 @@
 ---
 theme: "@whizus-labs/slidev-theme-whizus"
-date: 15.02.2026
+date: 17.02.2026
 company: WhizUs GmbH
 speaker: Julian Zhuang
 title: Let the Bot Review it - Reducing Toil with Fossabot
