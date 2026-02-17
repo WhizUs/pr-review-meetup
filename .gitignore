@@ -1,6 +1,6 @@
 charts/*/charts/
 charts/*/Chart.lock
 *.tgz
-slides/
-PR-1-REVIEW.md
-PR-2-REVIEW.md
+status.md
+node_modules/
+dist/

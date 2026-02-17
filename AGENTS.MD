@@ -1,0 +1,7 @@
+- these instructions should be used when reviewing Pull Requests
+- point out the changes on a surface level
+- point out security risks and issues. If possible, write full CVE name, which CVE's has been fixed and which new ones are introduced.
+- althought this is a minor update, there could still be underlying breaking changes (e.g. from underlying dependencies). Point these out as well
+- do not use emojis
+- you can use gh cli
+- dump your results in a new file (naming convention PR-<number>-REVIEW.md). If a file is already existing, create a new file and increment <number>.
